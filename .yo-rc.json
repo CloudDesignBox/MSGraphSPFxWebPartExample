@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "show-one-drive-files",
+    "libraryId": "4356ecf5-a47b-4192-9abe-d15e75989a67",
+    "environment": "spo"
+  }
+}

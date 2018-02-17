@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-one-drive-files-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myOneDriveFiles/MyOneDriveFilesWebPart.js",
+          "manifest": "./src/webparts/myOneDriveFiles/MyOneDriveFilesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyOneDriveFilesWebPartStrings": "lib/webparts/myOneDriveFiles/loc/{locale}.js"
+  }
+}

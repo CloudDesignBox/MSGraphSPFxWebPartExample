@@ -1,0 +1,19 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "show-one-drive-files-client-side-solution",
+    "id": "4356ecf5-a47b-4192-9abe-d15e75989a67",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/show-one-drive-files.sppkg"
+  }
+}
